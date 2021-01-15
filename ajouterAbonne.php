@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
 	
 $noms=$_POST['noms']; // nom d'utilisateur
 $cni=$_POST['cni']; // le numéro de la CNI de l'utilisateur
-$phone=$_POST['phone'];
+$phone=$_POST['phone'];// numéro du téléphone de l'utilisateur 
 
 if(!empty($noms) AND !empty($cni) AND !empty($phone) AND isset($_POST['forfait'])){
 		$forfait=$_POST['forfait'];
